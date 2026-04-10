@@ -1,0 +1,11 @@
+C:\sid\plata\microbit\compass\target\debug\deps\manyhow-a903abf0459a05b8.d: C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\lib.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\span_ranged.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\macro_rules.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\error.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\parse_to_tokens.rs
+
+C:\sid\plata\microbit\compass\target\debug\deps\libmanyhow-a903abf0459a05b8.rlib: C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\lib.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\span_ranged.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\macro_rules.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\error.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\parse_to_tokens.rs
+
+C:\sid\plata\microbit\compass\target\debug\deps\libmanyhow-a903abf0459a05b8.rmeta: C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\lib.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\span_ranged.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\macro_rules.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\error.rs C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\parse_to_tokens.rs
+
+C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\lib.rs:
+C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\span_ranged.rs:
+C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\macro_rules.rs:
+C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\error.rs:
+C:\Users\эйчпи\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\manyhow-0.11.4\src\parse_to_tokens.rs:

@@ -1,0 +1,31 @@
+    Blocking waiting for file lock on package cache
+   0.298807600s  INFO prepare_target{force=false package_id=compass v0.1.0 (C:\sid\plata\microbit\compass) target="compass"}: cargo::core::compiler::fingerprint: fingerprint error for compass v0.1.0 (C:\sid\plata\microbit\compass)/Check { test: true }/TargetInner { name: "compass", doc: true, ..: with_path("C:\\sid\\plata\\microbit\\compass\\src\\main.rs", Edition2021) }
+   0.298910000s  INFO prepare_target{force=false package_id=compass v0.1.0 (C:\sid\plata\microbit\compass) target="compass"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\sid\plata\microbit\compass\target\thumbv7em-none-eabihf\debug\.fingerprint\compass-c9b983507257b669\test-bin-compass`
+
+Caused by:
+    Не удается найти указанный файл. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking compass v0.1.0 (C:\sid\plata\microbit\compass)
+error: could not compile `compass` (bin "compass" test) due to 1 previous error

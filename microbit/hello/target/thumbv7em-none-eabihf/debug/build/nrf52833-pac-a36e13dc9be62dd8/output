@@ -1,0 +1,3 @@
+cargo:rustc-link-search=C:\sid\plata\microbit\hello\target\thumbv7em-none-eabihf\debug\build\nrf52833-pac-a36e13dc9be62dd8\out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs
