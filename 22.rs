@@ -66,7 +66,9 @@ fn main() {
         .build()
         .expect("Не удалось создать HTTP-клиент");
 
-    let start_url = Url::parse("https://ya.ru").unwrap();
+    // let start_url = Url::parse("https://ru.wikipedia.org").unwrap();
+    // let start_url = Url::parse("https://ya.ru").unwrap();
+    let start_url = Url::parse("https://lenta.ru").unwrap();
     let target_domain = start_url.domain().unwrap().to_string();
 
     // Канал для отправки команд воркерам (multiple producers, single consumer)
@@ -102,7 +104,6 @@ fn main() {
         let worker_client = client.clone();
         let worker_cmd_rx = Arc::clone(&shared_cmd_rx);
         let worker_result_tx = result_tx.clone();
-        let worker_visited = Arc::clone(&visited);
         let worker_processed_count = Arc::clone(&processed_count);
         let worker_target_domain = target_domain.clone();
 
@@ -162,7 +163,7 @@ fn main() {
         let link_str = link.to_string();
         let mut vis = visited.lock().unwrap();
         if !vis.contains(&link_str) {
-            let mut count = processed_count.lock().unwrap();
+            let count = processed_count.lock().unwrap();
             if *count >= MAX_LINKS {
                 break; // Достигнут лимит – прекращаем добавление новых команд
             }
